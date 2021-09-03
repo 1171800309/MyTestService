@@ -1,0 +1,13 @@
+D:\demo\mydemo\FirstService\TestService\IServices\bin\Debug\netcoreapp3.1\IServices.deps.json
+D:\demo\mydemo\FirstService\TestService\IServices\bin\Debug\netcoreapp3.1\IServices.dll
+D:\demo\mydemo\FirstService\TestService\IServices\bin\Debug\netcoreapp3.1\IServices.pdb
+D:\demo\mydemo\FirstService\TestService\IServices\bin\Debug\netcoreapp3.1\Common.dll
+D:\demo\mydemo\FirstService\TestService\IServices\bin\Debug\netcoreapp3.1\Common.pdb
+D:\demo\mydemo\FirstService\TestService\IServices\obj\Debug\netcoreapp3.1\IServices.csproj.AssemblyReference.cache
+D:\demo\mydemo\FirstService\TestService\IServices\obj\Debug\netcoreapp3.1\IServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\mydemo\FirstService\TestService\IServices\obj\Debug\netcoreapp3.1\IServices.AssemblyInfoInputs.cache
+D:\demo\mydemo\FirstService\TestService\IServices\obj\Debug\netcoreapp3.1\IServices.AssemblyInfo.cs
+D:\demo\mydemo\FirstService\TestService\IServices\obj\Debug\netcoreapp3.1\IServices.csproj.CoreCompileInputs.cache
+D:\demo\mydemo\FirstService\TestService\IServices\obj\Debug\netcoreapp3.1\IServices.csproj.CopyComplete
+D:\demo\mydemo\FirstService\TestService\IServices\obj\Debug\netcoreapp3.1\IServices.dll
+D:\demo\mydemo\FirstService\TestService\IServices\obj\Debug\netcoreapp3.1\IServices.pdb
