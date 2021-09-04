@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CQOj7H8wYd1ckBkhMzztqk1Dhaj2KaXkR/WGaG439AI+btE0Vuks0xaQGjCGc8vgUKko7cBcpFWNp/L/oFdDRA==",
+  "dgSpecHash": "Qa8EYAyEHYR+dSMt/341yy7lDUFYiYdwEVFw5Gw9MldFBH/aKtBgcjP/0mx0rSXEtG4Hzs29l0vgnQF/61I+mw==",
   "success": true,
-  "projectFilePath": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj",
+  "projectFilePath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

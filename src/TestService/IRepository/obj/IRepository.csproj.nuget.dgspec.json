@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj": {}
+    "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj": {}
   },
   "projects": {
-    "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj": {
+    "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj",
+        "projectUniqueName": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj",
         "projectName": "IRepository",
-        "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj",
+        "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\obj\\",
+        "outputPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cx/6YIHa8g51PKwk0vbFG3iEriLYYx2vZZXEA37RjxbyWEFbbmIwAszxQciQHtvkUAyF8zVUdwrojpeKHMVsbg==",
+  "dgSpecHash": "lsypHID8s5VAiBF9nWvCkXoNWcbCC/LO/vFCS6gk1TZsy1KJ0qZhRWIQx9UFjJkw6n7ZXhq3xMyX4fc3ll4+xg==",
   "success": true,
-  "projectFilePath": "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj",
+  "projectFilePath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\demo\\mydemo\\FirstService\\TestService\\Services\\Services.csproj": {}
+    "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Services\\Services.csproj": {}
   },
   "projects": {
-    "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj": {
+    "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj",
+        "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\obj\\",
+        "outputPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,14 +116,14 @@
         }
       }
     },
-    "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj": {
+    "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj",
+        "projectUniqueName": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj",
         "projectName": "IRepository",
-        "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj",
+        "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\obj\\",
+        "outputPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,14 +170,14 @@
         }
       }
     },
-    "D:\\demo\\mydemo\\FirstService\\TestService\\IServices\\IServices.csproj": {
+    "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IServices\\IServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\mydemo\\FirstService\\TestService\\IServices\\IServices.csproj",
+        "projectUniqueName": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IServices\\IServices.csproj",
         "projectName": "IServices",
-        "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\IServices\\IServices.csproj",
+        "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IServices\\IServices.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\mydemo\\FirstService\\TestService\\IServices\\obj\\",
+        "outputPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -194,8 +194,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj": {
-                "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj"
+              "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj": {
+                "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj"
               }
             }
           }
@@ -228,14 +228,14 @@
         }
       }
     },
-    "D:\\demo\\mydemo\\FirstService\\TestService\\Services\\Services.csproj": {
+    "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\mydemo\\FirstService\\TestService\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Services\\Services.csproj",
+        "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Services\\obj\\",
+        "outputPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -252,14 +252,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj": {
-                "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj"
+              "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj": {
+                "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj"
               },
-              "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj": {
-                "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\IRepository\\IRepository.csproj"
+              "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj": {
+                "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IRepository\\IRepository.csproj"
               },
-              "D:\\demo\\mydemo\\FirstService\\TestService\\IServices\\IServices.csproj": {
-                "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\IServices\\IServices.csproj"
+              "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IServices\\IServices.csproj": {
+                "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\IServices\\IServices.csproj"
               }
             }
           }

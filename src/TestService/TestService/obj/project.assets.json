@@ -7166,11 +7166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\demo\\mydemo\\FirstService\\TestService\\TestService\\TestService.csproj",
+      "projectUniqueName": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\TestService\\TestService.csproj",
       "projectName": "TestService",
-      "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\TestService\\TestService.csproj",
+      "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\TestService\\TestService.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\demo\\mydemo\\FirstService\\TestService\\TestService\\obj\\",
+      "outputPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\TestService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7187,14 +7187,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj": {
-              "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj"
+            "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj": {
+              "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj"
             },
-            "D:\\demo\\mydemo\\FirstService\\TestService\\Repository\\Repository.csproj": {
-              "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Repository\\Repository.csproj"
+            "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Repository\\Repository.csproj"
             },
-            "D:\\demo\\mydemo\\FirstService\\TestService\\Services\\Services.csproj": {
-              "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Services\\Services.csproj"
+            "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Services\\Services.csproj": {
+              "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Services\\Services.csproj"
             }
           }
         }

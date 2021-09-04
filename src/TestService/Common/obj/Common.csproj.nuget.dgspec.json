@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj": {}
+    "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj": {}
   },
   "projects": {
-    "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj": {
+    "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\Common.csproj",
+        "projectPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\mydemo\\FirstService\\TestService\\Common\\obj\\",
+        "outputPath": "D:\\demo\\mydemo\\MyTestService\\src\\TestService\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
