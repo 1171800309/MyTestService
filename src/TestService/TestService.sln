@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService", "TestService\TestService.csproj", "{7D5BD488-DDF1-473F-B468-A72816F2F294}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestService", "TestService\TestService.csproj", "{7D5BD488-DDF1-473F-B468-A72816F2F294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{D942DD64-2FD2-490E-B37F-984BAA5FF851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{D942DD64-2FD2-490E-B37F-984BAA5FF851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{4BC01C96-457B-425A-8FFE-2E71705FFF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{4BC01C96-457B-425A-8FFE-2E71705FFF6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IServices", "IServices\IServices.csproj", "{C83EC35D-2993-405B-B305-1D5B38832AFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IServices", "IServices\IServices.csproj", "{C83EC35D-2993-405B-B305-1D5B38832AFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepository", "IRepository\IRepository.csproj", "{272D4FAC-EFBE-49D2-84C7-87F33CEEE54B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRepository", "IRepository\IRepository.csproj", "{272D4FAC-EFBE-49D2-84C7-87F33CEEE54B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{0C11F6B3-55F4-472E-974D-291214590631}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{0C11F6B3-55F4-472E-974D-291214590631}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{5327C48E-B5D5-4304-B507-6F525C595F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateWayService", "GateWayService\GateWayService.csproj", "{722936BB-4FF6-445B-BCB7-DCEB60FF5F79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +49,17 @@ Global
 		{0C11F6B3-55F4-472E-974D-291214590631}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C11F6B3-55F4-472E-974D-291214590631}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C11F6B3-55F4-472E-974D-291214590631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722936BB-4FF6-445B-BCB7-DCEB60FF5F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722936BB-4FF6-445B-BCB7-DCEB60FF5F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722936BB-4FF6-445B-BCB7-DCEB60FF5F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722936BB-4FF6-445B-BCB7-DCEB60FF5F79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D5BD488-DDF1-473F-B468-A72816F2F294} = {5327C48E-B5D5-4304-B507-6F525C595F7E}
+		{722936BB-4FF6-445B-BCB7-DCEB60FF5F79} = {5327C48E-B5D5-4304-B507-6F525C595F7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB7A4B21-162C-4783-9145-82FF2B8E98A2}

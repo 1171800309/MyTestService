@@ -1,0 +1,21 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/{controller}/{action}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/test/{controller}/{action}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "ServiceName": "test",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UseServiceDiscovery": true
+    }
+  ],
+  "GlobalConfiguration":{
+    "ServiceDiscoveryProvider": {
+      "Host": "http://119.23.111.54/", 
+      "Port": 8500
+    }
+  }
+}

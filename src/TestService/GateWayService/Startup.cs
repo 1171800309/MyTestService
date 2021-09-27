@@ -1,66 +1,50 @@
-using Autofac;
 using Common.Consul;
 using Common.Helper;
-using Common.Setup;
+using GateWayService.Filter;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
+using Ocelot.Provider.Consul;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TestService.Filter;
 
-namespace TestService
+namespace GateWayService
 {
     public class Startup
     {
-
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-
-        public IConfiguration Configuration { get; set; }
+        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-
-            //Cors支持跨域
+            //Cors跨域支持
             services.AddCors(_options => _options.AddPolicy("AllowCors", _builder =>
             {
                 _builder.AllowAnyOrigin().AllowAnyMethod();
                 _builder.AllowAnyOrigin().AllowAnyHeader();
+                //_builder.AllowCredentials().SetPreflightMaxAge(TimeSpan.FromSeconds(600));
             }));
-
-
             //注册appsettings读取类
             services.AddSingleton(new Appsettings(Configuration));
-
-            //jwt授权验证
-            services.AddAuthorizationSetup();
-
             //注册MiddleWare
             services.AddSingleton<GlobalApiLoggingMiddleware>();
-
-            services.AddControllers(option =>
-            {
-                option.Filters.Add(typeof(GlobalExceptionsFilter));
-            });
+            // BaseDBConfig.LogConString = Configuration.GetSection("AppSettings:LogConString").Value;
+            services.AddControllers();
+            services.AddOcelot().AddConsul();
         }
 
-
-
-        public void ConfigureContainer(ContainerBuilder builder)
-        {
-            builder.RegisterModule(new AutofacModuleRegister());
-        }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -69,28 +53,30 @@ namespace TestService
                 app.UseDeveloperExceptionPage();
             }
 
-            //返回错误码
-            app.UseStatusCodePages();
-
             app.UseRouting();
 
             //跨域配置这一行一定要在app.UseRouting 和 UseEndpoints 之间
             app.UseCors("AllowCors");
 
-            app.UseAuthentication();
-
             app.UseAuthorization();
-
             app.UseMiddleware<GlobalApiLoggingMiddleware>();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
 
-
+            //var staticFilePath = env.ContentRootPath + "\\wwwroot\\";
+            //StaticFileOptions staticFileOptions = new StaticFileOptions
+            //{
+            //    FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(staticFilePath),
+            //};
+            //app.UseStaticFiles(staticFileOptions);
+            //FileServerOptions fileServerOptions = new FileServerOptions();
+            //fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            //fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("index.html");
+            //app.UseFileServer(fileServerOptions);
             ConsulHelper.ConsulRegister();
-
+            app.UseOcelot().Wait();
         }
     }
 }

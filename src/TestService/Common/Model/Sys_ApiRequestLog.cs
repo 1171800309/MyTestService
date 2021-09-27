@@ -90,6 +90,10 @@ namespace Common.Model
         /// Nullable:True
         /// </summary>           
         public string Response { get; set; }
+        /// <summary>
+        /// 响应耗时（毫秒）
+        /// </summary>
+        public long? RCost { get; set; }
 
     }
 }
