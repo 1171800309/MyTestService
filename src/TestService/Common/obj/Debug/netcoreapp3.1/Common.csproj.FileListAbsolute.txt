@@ -8,3 +8,13 @@ D:\demo\mydemo\FirstService\TestService\Common\obj\Debug\netcoreapp3.1\Common.As
 D:\demo\mydemo\FirstService\TestService\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
 D:\demo\mydemo\FirstService\TestService\Common\obj\Debug\netcoreapp3.1\Common.dll
 D:\demo\mydemo\FirstService\TestService\Common\obj\Debug\netcoreapp3.1\Common.pdb
+D:\demo\mydemo\MyTestService\src\TestService\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+D:\demo\mydemo\MyTestService\src\TestService\Common\bin\Debug\netcoreapp3.1\Common.dll
+D:\demo\mydemo\MyTestService\src\TestService\Common\bin\Debug\netcoreapp3.1\Common.pdb
+D:\demo\mydemo\MyTestService\src\TestService\Common\obj\Debug\netcoreapp3.1\Common.csproj.AssemblyReference.cache
+D:\demo\mydemo\MyTestService\src\TestService\Common\obj\Debug\netcoreapp3.1\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\mydemo\MyTestService\src\TestService\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+D:\demo\mydemo\MyTestService\src\TestService\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+D:\demo\mydemo\MyTestService\src\TestService\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+D:\demo\mydemo\MyTestService\src\TestService\Common\obj\Debug\netcoreapp3.1\Common.dll
+D:\demo\mydemo\MyTestService\src\TestService\Common\obj\Debug\netcoreapp3.1\Common.pdb
