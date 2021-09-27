@@ -8,11 +8,6 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
 COPY ["GateWayService/GateWayService.csproj", "GateWayService/"]
-COPY ["Repository/Repository.csproj", "Repository/"]
-COPY ["IRepository/IRepository.csproj", "IRepository/"]
-COPY ["Common/Common.csproj", "Common/"]
-COPY ["Services/Services.csproj", "Services/"]
-COPY ["IServices/IServices.csproj", "IServices/"]
 RUN dotnet restore "GateWayService/GateWayService.csproj"
 COPY . .
 WORKDIR "/src/GateWayService"

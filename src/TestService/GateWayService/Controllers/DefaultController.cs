@@ -21,5 +21,11 @@ namespace GateWayService.Controllers
             string str = Request.HttpContext.Connection.LocalIpAddress.MapToIPv4().ToString() + ":" + Request.HttpContext.Connection.LocalPort;
             return Ok(str + Assembly.GetExecutingAssembly().GetName().Name);
         }
+
+        [HttpGet]
+        public IActionResult Test()
+        {
+            return Ok("test ok ");
+        }
     }
 }
