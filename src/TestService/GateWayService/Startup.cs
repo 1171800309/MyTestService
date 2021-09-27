@@ -65,16 +65,16 @@ namespace GateWayService
                 endpoints.MapControllers();
             });
 
-            //var staticFilePath = env.ContentRootPath + "\\wwwroot\\";
-            //StaticFileOptions staticFileOptions = new StaticFileOptions
-            //{
-            //    FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(staticFilePath),
-            //};
-            //app.UseStaticFiles(staticFileOptions);
-            //FileServerOptions fileServerOptions = new FileServerOptions();
-            //fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
-            //fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("index.html");
-            //app.UseFileServer(fileServerOptions);
+            var staticFilePath = env.ContentRootPath + "\\wwwroot\\";
+            StaticFileOptions staticFileOptions = new StaticFileOptions
+            {
+                FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(staticFilePath),
+            };
+            app.UseStaticFiles(staticFileOptions);
+            FileServerOptions fileServerOptions = new FileServerOptions();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("index.html");
+            app.UseFileServer(fileServerOptions);
             ConsulHelper.ConsulRegister();
             app.UseOcelot().Wait();
         }
