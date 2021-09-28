@@ -3,18 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace TestService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class HealthController : ControllerBase
+    public class HealthController : Common.Controller.BaseController
     {
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult GetAssemblyName()
         {
-            return Ok("OK!");
+            return Ok(Assembly.GetExecutingAssembly().GetName().Name);
         }
     }
 }
