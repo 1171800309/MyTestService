@@ -14,7 +14,7 @@
   ],
   "GlobalConfiguration":{
     "ServiceDiscoveryProvider": {
-      "Host": "http://119.23.111.54/", 
+      "Host": "119.23.111.54", 
       "Port": 8500
     }
   }
