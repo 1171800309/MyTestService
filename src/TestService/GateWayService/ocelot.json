@@ -1,5 +1,5 @@
 {
-  "Routes": [
+  "ReRoutes": [
     {
       "DownstreamPathTemplate": "/api/{controller}/{action}",
       "DownstreamScheme": "http",
@@ -12,9 +12,9 @@
       "UseServiceDiscovery": true
     }
   ],
-  "GlobalConfiguration":{
+  "GlobalConfiguration": {
     "ServiceDiscoveryProvider": {
-      "Host": "119.23.111.54", 
+      "Host": "119.23.111.54",
       "Port": 8500
     }
   }
