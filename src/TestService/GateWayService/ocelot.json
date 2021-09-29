@@ -3,7 +3,7 @@
     {
       "DownstreamPathTemplate": "/api/{controller}/{action}",
       "DownstreamScheme": "http",
-      "UpstreamPathTemplate": "/test/{controller}/{action}",
+      "UpstreamPathTemplate": "/Test/{controller}/{action}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
       "ServiceName": "Test",
       "LoadBalancerOptions": {
