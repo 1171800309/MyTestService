@@ -23,7 +23,7 @@ namespace GateWayService.Filter
             {
                 await next.Invoke(context);
                 //var reqlogflag = Appsettings.app(new string[] { "RequestLog" }).ToString();
-                var reqlogflag = "0";
+                var reqlogflag = "1";
                 if (reqlogflag.Equals("1"))
                 {
                     using var memStream = new MemoryStream();

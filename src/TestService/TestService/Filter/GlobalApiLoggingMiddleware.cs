@@ -18,7 +18,8 @@ namespace TestService.Filter
             Stream originalBody = context.Response.Body;
             try
             {
-                var reqlogflag = Appsettings.app(new string[] { "RequestLog" }).ToString();
+                // var reqlogflag = Appsettings.app(new string[] { "RequestLog" }).ToString();
+                var reqlogflag = "1";
                 if (reqlogflag.Equals("1"))
                 {
                     using var memStream = new MemoryStream();
