@@ -8,8 +8,6 @@ using System.Threading.Tasks;
 
 namespace TestService.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
     public class HealthController : Common.Controller.BaseController
     {
         [HttpGet]
