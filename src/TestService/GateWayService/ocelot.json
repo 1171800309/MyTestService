@@ -13,6 +13,7 @@
     }
   ],
   "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
     "ServiceDiscoveryProvider": {
       "Host": "119.23.111.54",
       "Port": 8500
