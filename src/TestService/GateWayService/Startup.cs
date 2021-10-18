@@ -75,8 +75,19 @@ namespace GateWayService
             //fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
             //fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("index.html");
             //app.UseFileServer(fileServerOptions);
+
+            var configuration = new OcelotPipelineConfiguration
+            {
+                PreErrorResponderMiddleware = async (ctx, next) =>
+                {
+                    await next.Invoke();
+                }
+            };
+
             ConsulHelper.ConsulRegister();
-            app.UseOcelot().Wait();
+            app.UseOcelot(configuration).Wait();
+
+            //app.UseOcelot().Wait();
         }
     }
 }
