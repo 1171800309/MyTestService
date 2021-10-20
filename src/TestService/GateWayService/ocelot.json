@@ -5,7 +5,7 @@
       "DownstreamScheme": "http",
       "UpstreamPathTemplate": "/Test/{controller}/{action}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
-      "ServiceName": "Test",
+      "ServiceName": "testservices",
       "LoadBalancerOptions": {
         "Type": "RoundRobin"
       },
