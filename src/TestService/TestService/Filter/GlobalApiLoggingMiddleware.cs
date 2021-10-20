@@ -67,7 +67,7 @@ namespace TestService.Filter
                 //重新给response.body赋值，用于返回
                 context.Response.Body = originalBody;
             }
-            await next.Invoke(context);
+         //   await next.Invoke(context);
         }
     }
 }
