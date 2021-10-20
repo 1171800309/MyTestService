@@ -1,9 +1,9 @@
 {
   "ReRoutes": [
     {
-      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamPathTemplate": "/api/{controller}/{action}",
       "DownstreamScheme": "http",
-      "UpstreamPathTemplate": "/testservices/{everything}",
+      "UpstreamPathTemplate": "/testservices/{controller}/{action}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
       "ServiceName": "testservices",
       "LoadBalancerOptions": {
