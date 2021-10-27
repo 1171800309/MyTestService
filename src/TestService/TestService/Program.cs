@@ -22,7 +22,7 @@ namespace TestService
             .UseServiceProviderFactory(new AutofacServiceProviderFactory()) //<--NOTE THIS
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>();    
                 });
     }
 }
